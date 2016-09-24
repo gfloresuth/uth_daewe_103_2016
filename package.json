@@ -1,0 +1,30 @@
+{
+  "name": "uth_daewe_103_2016",
+  "version": "1.0.0",
+  "description": "Ejemplo basico con express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfloresuth/uth_daewe_103_2016.git"
+  },
+  "dependencies":{
+    "express":"latest",
+    "atpl":"latest",
+    "body-parser":"latest"
+  },
+  "keywords": [
+    "UTH",
+    "expressjs",
+    "nodejs"
+  ],
+  "author": "Gustavo Adolfo Flores González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfloresuth/uth_daewe_103_2016/issues"
+  },
+  "homepage": "https://github.com/gfloresuth/uth_daewe_103_2016#readme"
+}
