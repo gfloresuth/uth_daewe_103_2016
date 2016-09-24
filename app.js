@@ -5,6 +5,8 @@ var express = require('express');
 var app = express();
 
 const port = 8090;
+
+// Se asigna ruta '/', para la carpeta public
 app.use('/', express.static(__dirname+'/public'));
 
 // Servicio /holamundo/
@@ -12,6 +14,7 @@ app.get('/holamundo/',function(req,res){
     res.send('Hola mundo');
 });
 
+// Listado con datos falsos
 function datosFalsos()
 {
     var listado = [];
