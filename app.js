@@ -7,6 +7,7 @@ var app = express();
 // Puerto por default
 const port = 8090;
 
+
 // Se asigna ruta '/', para la carpeta public
 app.use('/', express.static(__dirname+'/public'));
 
