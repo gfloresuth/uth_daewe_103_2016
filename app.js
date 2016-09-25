@@ -4,6 +4,7 @@ var express = require('express');
 // Crear servidor
 var app = express();
 
+// Puerto por default
 const port = 8090;
 
 // Se asigna ruta '/', para la carpeta public
